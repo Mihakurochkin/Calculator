@@ -1,0 +1,17 @@
+#numbers {
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: flex-start;
+    height: 200px;
+    width: 200px;
+}
+
+#calculator {
+    height: 500px;
+}
+
+.number {
+    width: calc(100%/3);
+    height: calc(100%/3);
+    font-size: 20px;
+}
